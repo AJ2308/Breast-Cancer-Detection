@@ -9,7 +9,6 @@ from sklearn.ensemble import RandomForestClassifier
 import pickle
 
 df = pd.read_csv("C:\\Users\\ADITYA\\Downloads\\archive (6)\\data.csv")
-
 df.drop(columns=['id'], inplace=True)
 
 
